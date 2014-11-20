@@ -1,0 +1,101 @@
+https://www.youtube.com/watch?v=no-Ntkc836w
+
+setting up and using responsive layouts
+
+
+for bootstrap CDNS
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<!-- this can be added at the bottom of your body to be loaded last, these things do not need to be
+loaded for the page to start and lets the page load quicker -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+
+
+for a responsiv colum you can add this under the <body>
+
+<div class="row">
+	<div class="col-sm-4">test</div>
+	<div class="col-sm-4">test</div>
+	<div class="col-sm-4">test</div>
+	<!-- this is done in multiples of 12 with bootstrap-->
+</div>
+
+
+from the video he has his main.css file that he adds to the code with<link rel="stylesheet" href="styles/main.css">
+
+in here he has the darBG, darkerBG and darkestBG class which makes the background dark on the column
+
+so his code looks like this
+<div class="row">
+	<div class="darkBG col-sm-4">test</div>
+	<div class="darkerBG col-sm-4">test</div>
+	<div class="darkestBG col-sm-4">test</div>
+	<!-- this is done in multiples of 12 with bootstrap-->
+</div>
+
+
+you can add other rules for when the screen is smaller
+
+<div class="row">
+	<div class="darkBG col-sm-4 col-xs-12">test</div>
+	<div class="darkerBG col-sm-4 col-xs-6">test</div>
+	<div class="darkestBG col-sm-4 col-xs-6">test</div>
+	<!-- this is done in multiples of 12 with bootstrap-->
+</div>
+
+you will also want to add this code to a container tag
+
+<div class="container">
+	<div class="row">
+		<div class="darkBG col-sm-4 col-xs-12">test</div>
+		<div class="darkerBG col-sm-4 col-xs-6">test</div>
+		<div class="darkestBG col-sm-4 col-xs-6">test</div>
+	<!-- this is done in multiples of 12 with bootstrap-->
+	</div>
+
+</div>
+
+
+the container gives it a center look and feel on the page
+
+adding a nav bar
+
+go to get getbootstrap.com/bootstrap
+you can get compunetes here that are created with the bootstrap cdn
+
+
+
+<head class="navbar-default"> <--! i think the class is from bootstrap -->
+	<div class="container">
+		<--! navbar code from get bootstrap -->
+		
+	</div>
+</header>
+
+
+you can add a bootstrap button
+
+<div class="containter"
+	<div class="row">
+		<div class="col-sm-4 col-xs-6">test
+			<a href="#" class="btn btn-default">name for button</a>  <!-- btn-default can be changed for the colors for how bootstrap has it set up in its css file -->
+		</div>
+		<!-- you can also use panels -->
+		<div class="col-sm-4 col-xs-12">test
+			<div class="panel-heading">name for it</div>
+				<div class="panel-body">
+					whatever you want the panel to have
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>

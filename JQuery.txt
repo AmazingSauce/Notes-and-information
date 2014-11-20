@@ -1,0 +1,71 @@
+https://www.youtube.com/watch?v=hMxGhHNOkCU&src_vid=no-Ntkc836w&feature=iv&annotation_id=annotation_1570516291
+
+referencing jquery in html file
+
+cdn
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+
+example to use script
+
+<script>
+
+	$(document).ready(fucntion() {
+
+	
+	
+	});
+</script>
+
+
+
+or you can do 
+
+
+<script>
+
+	$(fucntion() {
+
+	
+	
+	});
+</script>
+
+
+
+
+
+<script>
+
+	$(function() {
+		$("#panel1").css({color: 'red',fontWeight:'bold'});
+		$("#panel1").hide(1000).show(1000).slideup(1000).delay(1000).slidedown(1000).fadein(1000).fadeout(1000).fadetoggle(1000).toggle(1000);
+		
+	});
+</script>
+
+
+
+jquery video #2
+
+https://www.youtube.com/watch?v=G-POtu9J-m4&src_vid=hMxGhHNOkCU&feature=iv&annotation_id=annotation_1494025287
+
+
+doing interactions with jquery
+
+this calls the id btn1 on on click it does the function to panel1 which is slideToggle
+
+
+<script>
+
+	$(function() {
+		$('#btn1').on('click', function(){
+			$('$panel1').slideToggle(2000);
+		});
+	});
+</script>
+
+
+
+

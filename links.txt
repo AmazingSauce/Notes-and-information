@@ -1,0 +1,121 @@
+-what to learn and what do to to become a web developer
+https://www.youtube.com/watch?v=zXqs6X0lzKI
+
+-learn jquery for basic front end
+http://www.w3schools.com/jquery/default.asp
+
+
+-(learn a java script framework)
+to learn angular JavaScript for front end developement
+https://angularjs.org/
+http://www.w3schools.com/angular/
+https://developers.google.com/speed/libraries/devguide#angularjs
+
+learn to write tests for angular javascript
+
+learn jquery for basic front end
+
+
+-learns css tools
+SASS or LESS
+
+
+
+-learn a CSS framework 
+bootstrap or foundation - both are responsive design
+
+
+
+-Responsive design
+this is so it resizes to the size of the browser, mostly for mobile
+and using computers
+
+
+-front end build tools
+basically allows you to combine multiple css and other files into one
+file to be sent for the browser but allow you to keep seperate files
+for different things like css file for headers, a file for paragraphs, 
+a file for widgets etc 
+
+runs Grunt or Gulp - 
+everyone uses Grunt but Gulp is a new replacement
+
+learn Grunt first
+
+learn requires JS and Browserfy - browserfy may be better to learn
+
+
+using bower package management
+
+
+
+
+
+
+
+
+
+
+-backend developer
+ruby on rails - this or nodejs to learn
+nodejs (javascript/express.js) - good to use java for front end and back end
+php -  learn some php wordpress symphony etc.
+python/django
+.net(c#)
+
+
+learn to wire it to different databases
+database to learn 
+	mysql 
+	mango DB
+	Redis
+
+
+
+learn how to build an these in the code like ruby on rails
+	build apis
+	learn security
+	OAUTH2 - log in with my google account or facebook account
+	authorization/authentication
+
+
+
+next learn caching
+	memcached
+	Ngnx
+
+
+
+-you can learn Dev ops web platform
+	
+more in depth backend
+
+
+
+
+
+links from the video https://www.youtube.com/watch?v=zXqs6X0lzKI
+
+Videos mentioned here:
+HTML 101: http://www.youtube.com/watch?v=3JluqTojuME
+CSS 101: http://www.youtube.com/watch?v=gBi8Obib0tw
+Javascript 101: http://www.youtube.com/watch?v=vZBCTc9zHtI
+Basic Terminal: https://www.youtube.com/watch?v=jDINUSK7rXE
+SSH Tutorial: https://www.youtube.com/watch?v=DbPDraCYju8
+Github 101: http://www.youtube.com/watch?v=0fKg7e37bQE
+Bootstrap 101: http://www.youtube.com/watch?v=no-Ntkc836w
+
+
+
+
+
+
+web development tutorial videos
+#1
+https://www.youtube.com/watch?v=3JluqTojuME
+
+
+#2
+https://www.youtube.com/watch?v=gBi8Obib0tw&src_vid=3JluqTojuME&feature=iv&annotation_id=annotation_498347707
+
+#3

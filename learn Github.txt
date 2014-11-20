@@ -1,0 +1,120 @@
+https://www.youtube.com/watch?v=0fKg7e37bQE&src_vid=zXqs6X0lzKI&feature=iv&annotation_id=annotation_3019559903
+
+basically github allows people to use files at the same time and keep track of changes
+
+
+allows for multiple users to access the same file and make changes without over editing files and writing over eachothers work
+
+the git command keeps track of your changes
+
+
+
+when working on it you can load in other peoples changes
+
+
+you can get a merg conflict when someone made a change to the same line
+
+you will see a messsage like yourversion and bobbys version showing both lines
+
+
+you can then change the file to make the changes and save the file
+
+
+this will happen, best thing to avoid this is communication
+
+
+
+using github you can create a new repository
+
+which is a new project
+
+make sure to select 
+ Initialize this repository with a README
+
+
+it will make it easier to clone
+
+to connect to that repository you can copy the clone url
+
+and run git clone url
+
+example git clone https://github.com/AmazingSauce/First-Test.git
+
+this will save the file name that you create on github and create the folder in the directory
+you are in
+
+
+
+once you are connected/cloned
+
+you can do get status to see if there are any changes that need to be done
+
+you can then do git add fileName 
+to add a file to the repository
+
+after added you can see the status of the files with git status
+
+next you will want to do git commit -m "notes of what was done"
+
+then git push to actually update the files to the github
+
+
+to get out of something press esx :wq!
+
+
+
+github video #2
+https://www.youtube.com/watch?v=oFYyTZwMyAg&src_vid=0fKg7e37bQE&feature=iv&annotation_id=annotation_3593094967
+
+branching
+
+git branch nameForBranch
+
+creates the name and copys everything from what you were in
+
+git branch will list your branches
+
+after you make your changes you can do
+
+git add -A
+for all files in the branch
+
+git commit -m "notes of changes"
+
+git checkout master
+
+then git pull
+
+to have updated master
+
+you can change back to the brank you created
+
+git checkout nameForBranch
+
+git merge master
+
+	-- to merge thebranch to the master
+
+git satus
+
+git commit
+
+esc :wq! to save the commit
+
+then git push 
+
+to push the branch up
+
+
+then a peer can check your changes first before merging the master
+
+
+now someone can merge the pull request and add it to the master
+
+
+
+
+
+
+
+
