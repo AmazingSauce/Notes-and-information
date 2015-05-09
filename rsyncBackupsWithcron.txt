@@ -1,0 +1,6 @@
+using rsync to create backups and keep files in sync
+
+http://www.howtogeek.com/135533/how-to-use-rsync-to-backup-your-data-on-linux/
+
+
+
