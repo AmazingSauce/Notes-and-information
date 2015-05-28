@@ -137,6 +137,10 @@ now someone can merge the pull request and add it to the master
 
 
 
+checking the origin/where the git is being pulled and added to
 
+rumn the below command from the branch/git location on your computer
+
+git remote show origin 
 
 
