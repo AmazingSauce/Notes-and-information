@@ -1,0 +1,8 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=61066BC5
+eax=00000000 ebx=612E8638 ecx=74CE2E09 edx=001E0027 esi=0000014C edi=000008F9
+ebp=0028C998 esp=0028C870 program=C:\Users\willis\.babun\cygwin\bin\ping.exe, pid 105292, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028C998  61066BC5 (612E8638, 0028C9F0, 00000008, 612EA428)
+0028C9F0  6109F316 (00000001, 611F8848, 611D2DD7, 0028CA20)
