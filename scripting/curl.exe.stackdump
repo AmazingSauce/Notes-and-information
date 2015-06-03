@@ -1,0 +1,8 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=61066BC5
+eax=00000000 ebx=612EAF14 ecx=74CE2E09 edx=001E0027 esi=00000194 edi=000009F0
+ebp=0028C298 esp=0028C170 program=C:\Users\willis\.babun\cygwin\bin\curl.exe, pid 109148, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028C298  61066BC5 (612EAF14, 0028C2F0, 00000008, 612EA468)
+0028C2F0  6109F316 (00000001, 611F8848, 611D2DD7, 0028C320)

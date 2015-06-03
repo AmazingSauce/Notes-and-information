@@ -1,0 +1,8 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=61066BC5
+eax=00000000 ebx=612ED768 ecx=74CE2E09 edx=001E0027 esi=000001B0 edi=000008FD
+ebp=0028C388 esp=0028C260 program=C:\Users\willis\.babun\cygwin\usr\libexec\git-core\git-remote-https.exe, pid 101432, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028C388  61066BC5 (612ED768, 0028C3E0, 00000008, 612EA428)
+0028C3E0  6109F316 (00000001, 611F8848, 611D2DD7, 0028C410)
